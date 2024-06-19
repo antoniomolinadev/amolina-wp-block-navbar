@@ -21,5 +21,5 @@
  */
 
 /* eslint-disable no-console */
-console.log( 'Hello World! (from create-block-amolina-wp-block-navbar block)' );
+console.log("Hello World! (from create-block-amolina-wp-block-navbar block)");
 /* eslint-enable no-console */

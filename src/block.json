@@ -14,7 +14,15 @@
 	"textdomain": "amolina-wp-block-navbar",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
-	"style": "file:./style-index.css",
+	"style": ["file:../build-assets/index.css", "file:./style-index.css"],
 	"render": "file:./render.php",
-	"viewScript": "file:./view.js"
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"showDummyText": {
+			"type": "boolean"
+		},
+		"dummyText": {
+			"type": "string"
+		}
+	}
 }
